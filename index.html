@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-markup-hw-03-index.html</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="container header-wrapper">
+      <nav class="site-navigation">
+        <div class="our-logotype">
+          <a class="our-logotype-link" href="./index.html">
+            <span class="logo-part">Web</span>
+            Studio
+          </a>
+        </div>
+        <ul class="site-navigation-list list">
+          <li class="site-navigation-list-item">
+            <a class="site-navigation-link current" href="#">
+              Студия
+            </a>
+          </li>
+          <li class="site-navigation-list-item">
+            <a class="site-navigation-link" href="./portfolio.html">
+              Портфолио
+            </a>
+          </li>
+          <li class="site-navigation-list-item">
+            <a class="site-navigation-link" href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <address class="contacts">
+        <a class="contacts-item" href="mailto:info@devstudio.com">
+          <img class="contacts-icon" src="./img/icon/email.svg" alt="letter" />
+          info@devstudio.com
+        </a>
+        <a class="contacts-item" href="tel:+380961111111">
+          <img
+            class="contacts-icon"
+            src="./img/icon/smartphone.svg"
+            alt="telephone"
+          />
+          +38 096 111 11 11
+        </a>
+      </address>
+    </header>
+    <main>
+      <div class="hero">
+        <img
+          class="hero-overlay"
+          src="./img/hero/overlay.png"
+          alt="office work"
+          width="1600"
+          height="600"
+        />
+        <div class="hero-wrapper">
+          <h1>
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <a class="order-link" href="#">Заказать услугу</a>
+        </div>
+      </div>
+      <section class="advantages container">
+        <h2 class="vis-hidden">Наши преимущества</h2>
+        <ul class="advantage-list list">
+          <li class="advantage-list-item">
+            <div class="advantage-icon-wrapper">
+              <img src="./img/icon/antenna.svg" alt="icon-antenna" />
+            </div>
+            <h3 class="advantage-item-title">Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="advantage-list-item">
+            <div class="advantage-icon-wrapper">
+              <img src="./img/icon/clock.svg" alt="icon-clock" />
+            </div>
+            <h3 class="advantage-item-title">Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="advantage-list-item">
+            <div class="advantage-icon-wrapper">
+              <img src="./img/icon/diagram.svg" alt="icon-diagram" />
+            </div>
+            <h3 class="advantage-item-title">Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="advantage-list-item">
+            <div class="advantage-icon-wrapper">
+              <img src="./img/icon/astronaut.svg" alt="icon-astronaut" />
+            </div>
+            <h3 class="advantage-item-title">Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="employment">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="employment-list list">
+            <li class="employment-list-item">
+              <img
+                src="./img/our-work/desktop.png"
+                alt="desctop"
+                width="370"
+                height="294"
+              />
+              <h3 class="employment-subtitle">Десктопные приложения</h3>
+            </li>
+            <li class="employment-list-item">
+              <img
+                src="./img/our-work/smartphone.jpg"
+                alt="smartphone"
+                width="370"
+                height="294"
+              />
+              <h3 class="employment-subtitle">Мобильные приложения</h3>
+            </li>
+            <li class="employment-list-item">
+              <img
+                src="./img/our-work/monitor.png"
+                alt="monitore"
+                width="370"
+                height="294"
+              />
+              <h3 class="employment-subtitle">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-team">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="team-list-item">
+              <img
+                class="specialist-photo"
+                src="./img/team/nic.jpg"
+                alt="photo"
+                width="270"
+                height="260"
+              />
+              <h3 class="specialist-name">Николай Кучеренко</h3>
+              <span class="specialty">Product Designer</span>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="#instagram" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/instagram.svg"
+                      alt="instagram-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#twitter" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/twitter.svg"
+                      alt="twitter-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#facebook" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/facebook.svg"
+                      alt="facebook-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#linkedin" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/linkedin.svg"
+                      alt="linkedin-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="specialist-photo"
+                src="./img/team/olha.png"
+                alt="photo"
+                width="270"
+                height="260"
+              />
+              <h3 class="specialist-name">Ольга Иванова</h3>
+              <span class="specialty">Frontend Developer</span>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="#instagram" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/instagram.svg"
+                      alt="instagram-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#twitter" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/twitter.svg"
+                      alt="twitter-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#facebook" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/facebook.svg"
+                      alt="facebook-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#linkedin" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/linkedin.svg"
+                      alt="linkedin-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="specialist-photo"
+                src="./img/team/andrew.jpg"
+                alt="photo"
+                width="270"
+                height="260"
+              />
+              <h3 class="specialist-name">Андрей Шевченко</h3>
+              <span class="specialty">Marketing</span>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="#instagram" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/instagram.svg"
+                      alt="instagram-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#twitter" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/twitter.svg"
+                      alt="twitter-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#facebook" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/facebook.svg"
+                      alt="facebook-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#linkedin" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/linkedin.svg"
+                      alt="linkedin-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="specialist-photo"
+                src="./img/team/ivan.png"
+                alt="photo"
+                width="270"
+                height="260"
+              />
+              <h3 class="specialist-name">Иван Николаев</h3>
+              <span class="specialty">UI Designer</span>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="#instagram" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/instagram.svg"
+                      alt="instagram-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#twitter" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/twitter.svg"
+                      alt="twitter-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#facebook" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/facebook.svg"
+                      alt="facebook-icon"
+                    />
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#linkedin" class="social-link">
+                    <img
+                      class="social-icon"
+                      src="./img/icon/social/linkedin.svg"
+                      alt="linkedin-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients container">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="clients-list list">
+          <li class="clients-list-item">
+            <a href="#">
+              <img src="./img/icon/clients/logo-1.svg" alt="logotype" />
+            </a>
+          </li>
+          <li class="clients-list-item">
+            <a href="#">
+              <img src="./img/icon/clients/logo-2.svg" alt="logotype" />
+            </a>
+          </li>
+          <li class="clients-list-item">
+            <a href="#">
+              <img src="./img/icon/clients/logo-3.svg" alt="logotype" />
+            </a>
+          </li>
+          <li class="clients-list-item">
+            <a href="#">
+              <img
+                class="logo-4"
+                src="./img/icon/clients/logo-4.svg"
+                alt="logotype"
+              />
+            </a>
+          </li>
+          <li class="clients-list-item">
+            <a href="#">
+              <img src="./img/icon/clients/logo-5.svg" alt="logotype" />
+            </a>
+          </li>
+          <li class="clients-list-item">
+            <a href="#">
+              <img src="./img/icon/clients/logo-6.svg" alt="logotype" />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper container">
+        <div class="footer-column-one">
+          <a
+            class="our-logotype-link footer"
+            href="https://andrii-marchuk.github.io/goit-markup-hw-03/"
+          >
+            <span class="logo-part">Web</span>
+            Studio
+          </a>
+          <address>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <a
+              class="contacts-item contacts-footer"
+              href="mailto:info@devstudio.com"
+            >
+              info@devstudio.com
+            </a>
+            <a class="contacts-item contacts-footer" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </address>
+        </div>
+        <div class="our-social column-two">
+          <b class="connnect">присоединяйтесь</b>
+          <ul class="our-social-list list">
+            <li class="our-social-list-item">
+              <a href="#" class="instagram">
+                <img
+                  src="./img/icon/social/instagram-2.svg"
+                  alt="instagram-icon"
+                />
+              </a>
+            </li>
+            <li class="our-social-list-item">
+              <a href="#" class="twitter">
+                <img src="./img/icon/social/twitter-2.svg" alt="twitter-icon" />
+              </a>
+            </li>
+            <li class="our-social-list-item">
+              <a href="#" class="facebook">
+                <img
+                  src="./img/icon/social/facebook-2.svg"
+                  alt="facebook-icon"
+                />
+              </a>
+            </li>
+            <li class="our-social-list-item">
+              <a href="#" class="linkedin">
+                <img
+                  src="./img/icon/social/linkedin-2.svg"
+                  alt="linkedin-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="column-three">
+          <b class="subscribe">Подпишитесь на рассылку</b>
+          <div class="subscribe">
+            <div class="input">
+              <input class="input-text" type="email" name="#" id="#" />
+            </div>
+            <a class="accept" href="#">
+              <span>Подписаться</span>
+              <img src="./img/icon/send.svg" alt="send-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

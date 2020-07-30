@@ -146,9 +146,43 @@ body {
   font-weight: 400;
 }
 
+.contacts .email::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url("../img/icon/email.svg");
+  background-size: contain;
+  align-self: center;
+}
+
+.contacts .tel::before {
+  content: "";
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url("../img/icon/smartphone.svg");
+  background-size: contain;
+  align-self: center;
+}
+
 .hero {
   display: block;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("../img/hero/Header-img.jpg");
 }
 
 .hero-overlay {
@@ -193,7 +227,7 @@ h1 {
 }
 
 .advantages.container {
-  position: relative;
+  /* position: relative; */
   padding-bottom: 0px;
 }
 
@@ -204,6 +238,33 @@ h1 {
 
 .advantage-list-item {
   width: 270px;
+}
+
+.advantage-list-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--section-icon-background-color);
+  background-repeat: no-repeat;
+  background-size: 65px 70px;
+  background-position: center;
+}
+
+.icon-antenna::before {
+  background-image: url(../img/icon/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../img/icon/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../img/icon/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../img/icon/astronaut.svg);
 }
 
 .advantage-icon-wrapper {
@@ -462,8 +523,14 @@ input {
   background-color: var(--hover-logo-color);
 }
 
-.accept span {
-  margin-right: 10px;
+.accept::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+  background-image: url("../img/icon/send.svg");
 }
 
 /* Portfolio page */

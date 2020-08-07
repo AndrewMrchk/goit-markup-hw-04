@@ -376,6 +376,10 @@ h1 {
   justify-content: center;
 }
 
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-link {
   display: flex;
   justify-content: center;
@@ -384,10 +388,6 @@ h1 {
   height: 44px;
   border-radius: 50%;
   fill: var(--text-subtitle-color);
-}
-
-.social-list-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .social-link:hover,
@@ -476,14 +476,10 @@ address .contacts-footer:last-child {
   margin-right: 94px;
 }
 
-.our-social-list-item {
-  padding: 10px;
-  border-radius: 40px;
+.social-link-footer {
+  border-radius: 50%;
+  fill: var(--white-text-color);
   background-color: var(--social-icon-footer-bg-color);
-}
-
-.our-social-list-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .subscribe {

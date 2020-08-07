@@ -404,15 +404,27 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-link {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid var(--text-subtitle-color);
+  fill: var(--text-subtitle-color);
+}
+
+.clients-link:hover {
+  fill: var(--hover-logo-color);
+  border-color: var(--hover-logo-color);
 }
 
 .footer {
@@ -520,7 +532,7 @@ input {
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--hover-logo-color);
-  fill:  var(--white-text-color)
+  fill: var(--white-text-color);
 }
 
 .send {
@@ -542,7 +554,7 @@ input {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-title-color);
-  background: #f5f4fa;
+  background: var(--section-icon-background-color);
   border-style: none;
   border-radius: 4px;
   padding: 6px 22px;
@@ -587,10 +599,10 @@ input {
 }
 
 .project-list-item {
-  background: #ffffff;
+  background: var(--white-text-color);
   border: 1px solid #eeeeee;
   width: 370px;
-  background: #ffffff;
+  background: var(--white-text-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),

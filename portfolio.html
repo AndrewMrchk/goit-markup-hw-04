@@ -273,7 +273,7 @@
             Studio
           </a>
           <address>
-            <p class="contacts-item">г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
             <a
               class="contacts-item contacts-footer"
               href="mailto:info@devstudio.com"
@@ -287,34 +287,33 @@
         </div>
         <div class="our-social column-two">
           <b class="connnect">присоединяйтесь</b>
-          <ul class="our-social-list list">
-            <li class="our-social-list-item">
-              <a href="#" class="instagram">
-                <img
-                  src="./img/icon/social/instagram-2.svg"
-                  alt="instagram-icon"
-                />
+          <ul class="social-list list">
+            <li class="social-list-item">
+              <a class="social-link social-link-footer">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icon/sprite.svg#instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="our-social-list-item">
-              <a href="#" class="twitter">
-                <img src="./img/icon/social/twitter-2.svg" alt="twitter-icon" />
+            <li class="social-list-item">
+              <a class="social-link social-link-footer">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icon/sprite.svg#twitter"></use>
+                </svg>
               </a>
             </li>
-            <li class="our-social-list-item">
-              <a href="#" class="facebook">
-                <img
-                  src="./img/icon/social/facebook-2.svg"
-                  alt="facebook-icon"
-                />
+            <li class="social-list-item">
+              <a class="social-link social-link-footer">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icon/sprite.svg#facebook"></use>
+                </svg>
               </a>
             </li>
-            <li class="our-social-list-item">
-              <a href="#" class="linkedin">
-                <img
-                  src="./img/icon/social/linkedin-2.svg"
-                  alt="linkedin-icon"
-                />
+            <li class="social-list-item">
+              <a class="social-link social-link-footer">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icon/sprite.svg#linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -323,12 +322,20 @@
           <b class="subscribe">Подпишитесь на рассылку</b>
           <div class="subscribe">
             <div class="input">
-              <input type="email" placeholder=" Email:" name="#" id="#" />
+              <input
+                class="input-text"
+                type="email"
+                placeholder=" Email"
+                name="#"
+                id="#"
+              />
             </div>
-            <button class="accept">
-              Подписаться
-              <img src="./img/icon/send.svg" alt="send-icon" />
-            </button>
+            <a class="accept" href="#">
+              <span>Подписаться</span>
+              <svg class="send" width="24" height="24">
+                <use href="./img/icon/sprite.svg#send"></use>
+              </svg>
+            </a>
           </div>
         </div>
       </div>

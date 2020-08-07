@@ -520,19 +520,20 @@ input {
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--hover-logo-color);
+  fill:  var(--white-text-color)
 }
 
-.accept::after {
-  content: "";
-  width: 24px;
-  height: 24px;
-  background-repeat: no-repeat;
-  background-position: center;
+.send {
   margin-left: 10px;
-  background-image: url("../img/icon/send.svg");
 }
 
-/* Portfolio page */
+.accept:hover {
+  fill: var(--hover-logo-color);
+  color: var(--hover-logo-color);
+  background-color: var(--white-text-color);
+}
+
+/* Page-portfolio */
 
 .filter-button {
   font-weight: 500;

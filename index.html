@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-04-index.html</title>
+    <title>goit-markup-hw-0-index.html</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&&display=swap"
       rel="stylesheet"
@@ -47,9 +47,15 @@
       </nav>
       <address class="contacts">
         <a class="contacts-item email" href="mailto:info@devstudio.com">
+          <svg class="icon" width="16" height="12">
+            <use xlink:href="./img/icon/sprite.svg#email"></use>
+          </svg>
           info@devstudio.com
         </a>
         <a class="contacts-item tel" href="tel:+380961111111">
+          <svg class="icon" width="10" height="15">
+            <use xlink:href="./img/icon/sprite.svg#smartphone"></use>
+          </svg>
           +38 096 111 11 11
         </a>
       </address>
@@ -103,9 +109,14 @@
           <ul class="employment-list list">
             <li class="employment-list-item">
               <img
-                src="./img/our-work/desktop.png"
+                class="employment-list-image"
+                srcset="
+                  ./img/our-work/desktop.jpg    370w,
+                  ./img/our-work/desktop@2x.jpg 740w
+                "
+                src="./img/our-work/desktop.jpg"
                 alt="desctop"
-                width="370"
+                sizes="370px"
                 height="294"
               />
               <h3 class="employment-subtitle">Десктопные приложения</h3>
@@ -147,39 +158,31 @@
               <span class="specialty">Product Designer</span>
               <ul class="social-list list">
                 <li class="social-list-item">
-                  <a href="#instagram" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/instagram.svg"
-                      alt="instagram-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#twitter" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/twitter.svg"
-                      alt="twitter-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#facebook" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/facebook.svg"
-                      alt="facebook-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#linkedin" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/linkedin.svg"
-                      alt="linkedin-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -196,39 +199,31 @@
               <span class="specialty">Frontend Developer</span>
               <ul class="social-list list">
                 <li class="social-list-item">
-                  <a href="#instagram" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/instagram.svg"
-                      alt="instagram-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#twitter" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/twitter.svg"
-                      alt="twitter-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#facebook" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/facebook.svg"
-                      alt="facebook-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#linkedin" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/linkedin.svg"
-                      alt="linkedin-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -245,39 +240,31 @@
               <span class="specialty">Marketing</span>
               <ul class="social-list list">
                 <li class="social-list-item">
-                  <a href="#instagram" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/instagram.svg"
-                      alt="instagram-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#twitter" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/twitter.svg"
-                      alt="twitter-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#facebook" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/facebook.svg"
-                      alt="facebook-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#linkedin" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/linkedin.svg"
-                      alt="linkedin-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -294,39 +281,31 @@
               <span class="specialty">UI Designer</span>
               <ul class="social-list list">
                 <li class="social-list-item">
-                  <a href="#instagram" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/instagram.svg"
-                      alt="instagram-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#twitter" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/twitter.svg"
-                      alt="twitter-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#facebook" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/facebook.svg"
-                      alt="facebook-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-list-item">
-                  <a href="#linkedin" class="social-link">
-                    <img
-                      class="social-icon"
-                      src="./img/icon/social/linkedin.svg"
-                      alt="linkedin-icon"
-                    />
+                  <a class="social-link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./img/icon/sprite.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -435,7 +414,13 @@
           <b class="subscribe">Подпишитесь на рассылку</b>
           <div class="subscribe">
             <div class="input">
-              <input class="input-text" type="email" name="#" id="#" />
+              <input
+                class="input-text"
+                type="email"
+                placeholder=" Email:"
+                name="#"
+                id="#"
+              />
             </div>
             <a class="accept" href="#">
               <span>Подписаться</span>

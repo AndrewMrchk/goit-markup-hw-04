@@ -118,16 +118,8 @@ body {
   align-items: center;
 }
 
-.contacts .contacts-item {
-  color: var(--text-subtitle-color);
-}
-
-.contacts-item:first-child {
+.contacts .email {
   margin-right: 30px;
-}
-
-.contacts-icon {
-  padding-right: 10px;
 }
 
 .contacts-item:hover,
@@ -135,8 +127,14 @@ body {
   color: var(--hover-logo-color);
 }
 
+.contacts-item .icon-contacts:hover,
+.contacts-item .icon-contacts:focus {
+  fill: var(--hover-logo-color);
+}
+
 .contacts-item {
   display: flex;
+  align-items: baseline;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   text-decoration: none;
@@ -144,26 +142,17 @@ body {
   line-height: 21px;
   letter-spacing: 0.03em;
   font-weight: 400;
+  color: var(--text-subtitle-color);
 }
 
-.contacts .email::before {
-  content: "";
-  width: 16px;
-  height: 12px;
+.icon {
+  display: inline-block;
   margin-right: 10px;
-  background-image: url("../img/icon/email.svg");
-  background-size: contain;
-  align-self: center;
+  fill: var(--text-subtitle-color);
 }
 
-.contacts .tel::before {
-  content: "";
-  width: 10px;
-  height: 15px;
-  margin-right: 10px;
-  background-image: url("../img/icon/smartphone.svg");
-  background-size: contain;
-  align-self: center;
+.contacts-item:hover .icon {
+  fill: var(--hover-logo-color);
 }
 
 .hero {
@@ -227,7 +216,6 @@ h1 {
 }
 
 .advantages.container {
-  /* position: relative; */
   padding-bottom: 0px;
 }
 
@@ -351,6 +339,7 @@ h1 {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 23px;
 }
 
 .team-list-item:not(:nth-child(4n)) {
@@ -387,10 +376,24 @@ h1 {
   justify-content: center;
 }
 
-.social-icon {
-  display: block;
-  margin: 0px;
-  padding: 12px;
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--text-subtitle-color);
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--hover-logo-color);
+  fill: var(--white-text-color);
 }
 
 .clients-list {
@@ -623,3 +626,7 @@ input {
   letter-spacing: 0.03em;
   color: var(--text-subtitle-color);
 }
+
+/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  
+} */

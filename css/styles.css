@@ -127,11 +127,6 @@ body {
   color: var(--hover-logo-color);
 }
 
-.contacts-item .icon-contacts:hover,
-.contacts-item .icon-contacts:focus {
-  fill: var(--hover-logo-color);
-}
-
 .contacts-item {
   display: flex;
   align-items: baseline;
@@ -151,7 +146,8 @@ body {
   fill: var(--text-subtitle-color);
 }
 
-.contacts-item:hover .icon {
+.contacts-item:hover .icon,
+.contacts-item:focus .icon {
   fill: var(--hover-logo-color);
   cursor: pointer;
 }
